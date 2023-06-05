@@ -11,9 +11,9 @@
     box-sizing: border-box;    
 }
 :root {
-    --main-color: #F1F6F9;
-    --text-color: #394867;
-    --bg-color: #212A3E;
+    --main-color: #635985;
+    --text-color: #443C68;
+    --bg-color: #7b5ddc;
 }
 img{
     width: 100%;
@@ -23,8 +23,80 @@ body{
 }
 .container{ 
     max-width: 1068px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
-.bx bx-bar{
-    color: #212A3E;
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none;
+}
+.logo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.logo span{
+    color: var(--main-color);
+}
+.navbar{
+    display: flex;
+    column-gap: 2rem;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+#icone-pesquisa{
+    font-size: 24px;
+    cursor: pointer;
+}
+.search-box{
+    position:absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background: var(--bg-color);
+    box-shadow: 4px 4px 20px rgb(15, 45, 55 /10%);
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
+}
+.search-box input::placeholder{
+    color: white;
+}
+.search-box.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.4s;
+}
+.search-box input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+
 }
