@@ -25,6 +25,7 @@ body{
     max-width: 1068px;
     margin-left: auto;
     margin-right: auto;
+    background-color:#1b003a;
 }
 header{
     display: block;
@@ -46,28 +47,29 @@ header{
     color: var(--text-color);
     display: none;
 }
-.logo{
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--text-color);
+#logonavbar {
+font-size: 25px;
+margin: 0;
+padding: 0;
+color: var(--bg-color);
 }
-.logo span{
-    color: var(--main-color);
-}
+#carlogonav{
+color: white;}
+
 .navbar{
     display: flex;
     column-gap: 2rem;
 }
 .navbar a{
-    color: var(--text-color);
+    color: white;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
 }
 .navbar a:hover,
 .navbar a.active{
-    color: var(--main-color);
-    border-bottom: 3px solid var(--main-color);
+    color: white;
+    border-bottom: 3px solid white;
 }
 #icone-pesquisa{
     font-size: 24px;
@@ -82,7 +84,7 @@ header{
     box-shadow: 4px 4px 20px rgb(15, 45, 55 /10%);
     border: 1px solid var(--main-color);
     border-radius: 0.5rem;
-    clip-path: circle(0% at 100% 0%);
+    clip-path: circle(0% at 100% 0% );
 }
 .search-box input::placeholder{
     color: white;
@@ -100,3 +102,7 @@ header{
     font-size: 1rem;
 
 }
+
+
+
+
