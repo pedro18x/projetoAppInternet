@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
 *{
     font-family: "Poppins", sans-serif;
@@ -15,6 +14,9 @@
     --text-color: #443C68;
     --bg-color: #7b5ddc;
 }
+section{
+    padding: 4rem 0 2rem
+}    
 img{
     width: 100%;
 }
