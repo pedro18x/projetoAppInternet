@@ -8,7 +8,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;    
-    
 }
 :root {
     --main-color: #635985;
@@ -106,29 +105,91 @@ color: white;}
     font-size: 1rem;
 
 }
-.heading{
-    padding: 150px;
-    text-align: center;   
-}
-.heading span{
-    font-weight: 500;
-    color: var(--main-color)    
-}
-.heading p{
-    font-size: 0.938rem;
-    font-weight: 300;
-}
-.cars-container {
+.menu {
+    max-width: 1900px;
+    margin: auto;
+    width: 100%;
+    min-height: 240px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
+    align-items: center;
+    background-image: url('img/https://cdn.discordapp.com/attachments/1115379974959026280/1116795370899509419/Untitled_design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;     
 }
-.cars-container .box {
-    flex: 1 1 17rem;
-    position: relative;
-    height: 200px;
-    border-radius: 0.5rem;
-    overflow: hidden;
-     
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1b003a;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0,5s;
+}
+form input:focus{
+    border-radius: 16px;  
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    color: #f5f5f5;
+    background: #1b003a;
+    border-radius: 16px;
 }

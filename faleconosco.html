@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="faleconosco.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,14 +14,14 @@
         <!-- Container -->
         <div class="nav container shadow  rounded">
             <!-- Menu de icones -->
-            <i class= bx-menu' id="Menu-icones"></i>
+            <i class= "bx-menu" id="Menu-icones"></i>
             <!-- Logo -->
             <div id="logonavbar"><span>Lo</span><span id="carlogonav">Car</span></div>
             <!-- lista nav -->
             <ul class="navbar">
                 
                 <li><a href="index.html">Aluguel de Carros</Menu></a></li>
-                <li><a href="faleconsoco.html" class="active">Fale Conosco</Menu></a></li>
+                <li><a href="#faleconosco.html" class="active">Fale Conosco</Menu></a></li>
                 <li><a href="login.html">Login usuário</Menu></a></li>
                 <li><a href="#reservas">Reservas</Menu></a></li>
             </ul>
@@ -31,9 +31,20 @@
             <div class="search-box container">
                 <input type="search" name="" id="" placeholder="Pesquise aqui...">
             </div>
-
-        </div>
-
     </header>
-</body>
+       </div>
+        <section>
+          <h2>Contato</h2>
+          <form action="" method="post">
+           <!--Autocomplete serve para não dar opções para os usúarios -->
+            <label>Nome</label>
+            <input type="text" nome="name" placeholder="Digite seu nome" autocomplete="off">
+            <label>Email</label>
+            <input type="email" nome="email" placeholder="Digite seu email" autocomplete="off">
+            <label>Mensagens</label>
+            <textarea name="Mensagens" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>  
+</body> 
 </html>

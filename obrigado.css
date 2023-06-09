@@ -1,0 +1,11 @@
+.obg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1b003a;
+    flex-direction: column;
+}
+.text-obg{
+
+}
