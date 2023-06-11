@@ -107,7 +107,7 @@ color: white;}
 
 }
 .heading{
-    padding: 150px;
+    padding: 40px;
     text-align: center;   
 }
 .heading span{
@@ -118,17 +118,24 @@ color: white;}
     font-size: 0.938rem;
     font-weight: 300;
 }
-.cars-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
+.car-card {
+    margin-bottom: 30px;
 }
-.cars-container .box {
-    flex: 1 1 17rem;
-    position: relative;
+
+.car-card .card-img-top {
     height: 200px;
-    border-radius: 0.5rem;
-    overflow: hidden;
-     
+    object-fit: cover;
+}
+
+.car-card .card-body {
+    background-color: #f8f9fa;
+}
+
+.car-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.car-card .card-text {
+    margin-bottom: 10px;
 }
