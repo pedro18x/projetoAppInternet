@@ -175,5 +175,9 @@ color: white;}
     font-size: 18px;
     color: #fff;
     background-color: #827ffe;
+    text-decoration: none;
+}
 
+#butao{
+    text-decoration: none;
 }

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+:root {
+    --main-color: #635985;
+    --text-color: #443C68;
+    --bg-color: #7b5ddc;
+}
+section {
+    padding: 4rem 0 2rem;
+}    
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1b003a;
+}
+.container { 
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b003a;
+}
+header {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+#Menu-icones {
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none;
+}
+#logonavbar {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: var(--bg-color);
+}
+#carlogonav {
+    color: white;
+}
+.navbar {
+    display: flex;
+    column-gap: 2rem;
+}
+.navbar a {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+#icone-pesquisa {
+    font-size: 24px;
+    cursor: pointer;
+}
+.search-box {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background: var(--bg-color);
+    box-shadow: 4px 4px 20px rgb(15, 45, 55 /10%);
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
+}
+.search-box input::placeholder {
+    color: white;
+}
+.search-box.active {
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.4s;
+}
+.search-box input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+}
+.custom-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}

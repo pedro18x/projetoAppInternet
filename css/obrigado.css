@@ -1,19 +1,20 @@
-.obg{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+.main-obg{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 300vh;
+    min-height: 100vh;
     background: #1b003a;
     flex-direction: column;
 }
 .text-obg{
     font-size: 45px;
     color: #f5f5f5;
-    margin-bottom: 30px;
+    margin-bottom: 30px;  
 }
-.parag-obg{
+.prg-obg{
     color: #f5f5f5;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
 .btn-obg{
     padding: 15px 55px;
@@ -25,5 +26,5 @@
 }
 .btn-obg:hover{
     border-radius: 16px;
-    
+
 }

@@ -27,7 +27,7 @@ name.addEventListener('input', function() {
 number.addEventListener('input', function(e) {
     this.value = numberAutoFormat();
 
-    //mostrar erro quando for diferente de 16 números e 3 espaços em branco
+    //mostrar erro quando for difreente de 16 números e 3 espaços em branco
     let error = this.value.length !== 19;
     let alert2 = document.getElementById('alert-2');
     showError(alert2, error);
